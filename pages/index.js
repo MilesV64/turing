@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image' 
+import Header from '../components/header'
 
 export default function Home() {
   return (
@@ -10,14 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <header className="fixed top-0 blur border-b border-gray-100 w-full h-16 flex justify-center items-center">
-        <Link href="/">
-          <a className="flex items-center">
-            <Image src="/logo.png" width={26} height={26} />
-            <h3 className="font-extrabold text-xl ml-2 text-gray-800">tuRing</h3>
-          </a>
-        </Link>
-      </header>
+      <Header />
 
       <div className="m-auto max-w-5xl px-10 mb-40 pt-16">
 
@@ -40,7 +33,7 @@ export default function Home() {
           <div className="flex-1 mt-10 md:mt-0">
             <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Covid-19 Ring</h2>
             <p className="mb-3 text-lg font-normal text-gray-700">Stay safe during the pandemic with social distance detection and automatic hand sanitizer dispensing.</p>
-            <Link href="/">
+            <Link href="/covid">
               <a className="rounded-md float-left py-1 px-2 -mx-2 -my-1 hover:bg-blue-50 border-blue-600 text-lg font-normal text-blue-500 flex items-center">
                 <p className="mr-1">Learn more</p>
                 <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -59,7 +52,7 @@ export default function Home() {
           <div className="flex-1 mt-10 md:mt-0">
             <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Self-Defense Ring</h2>
             <p className="mb-3 text-lg font-normal text-gray-700">With pepper spray and GPS tracking, you can have peace of mind when you're in an unsure situation.</p>
-            <Link href="/">
+            <Link href="/selfdefense">
               <a className="rounded-md float-left py-1 px-2 -mx-2 -my-1 hover:bg-blue-50 border-blue-600 text-lg font-normal text-blue-500 flex items-center">
                 <p className="mr-1">Learn more</p>
                 <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -79,7 +72,7 @@ export default function Home() {
           <div className="flex-1 mt-10 md:mt-0">
             <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Emergency Help Ring</h2>
             <p className="mb-3 text-lg font-normal text-gray-700">Automatically contact medical assistance when the ring detects a medical issue like a fall or heart attack.</p>
-            <Link href="/">
+            <Link href="/emergencyhelp">
               <a className="rounded-md float-left py-1 px-2 -mx-2 -my-1 hover:bg-blue-50 border-blue-600 text-lg font-normal text-blue-500 flex items-center">
                 <p className="mr-1">Learn more</p>
                 <ion-icon name="arrow-forward-outline"></ion-icon>
