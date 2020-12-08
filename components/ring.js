@@ -13,12 +13,11 @@ const Ring = ( props ) => {
             <Header />
 
             <div className="m-auto max-w-5xl px-10 mb-40 pt-16">
-                
-                <div className={"mt-10 w-full h-60 md:h-80 " + props.color}>
-                    <img className="max-h-full m-auto" src={props.img} />
-                </div>
 
-                <div className="m-auto max-w-xl pt-6">
+                <div className="m-auto max-w-xl">
+                    <div className={"mt-10 w-full h-60 md:h-80 mb-16 " + props.color}>
+                        <img className="max-h-full m-auto" src={props.img} />
+                    </div>
                     <Heading>{props.title}</Heading>
                     <Body>{props.children}</Body>
                 </div>

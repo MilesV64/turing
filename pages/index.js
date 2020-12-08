@@ -16,9 +16,15 @@ export default function Home() {
 
         <div className="flex justify-center items-center w-full mt-24">
 
-          <div className="flex-1 text-left md:text-center md:max-w-lg">
+          <div className="flex-1 flex flex-col item-left md:items-center text-left md:text-center md:max-w-xl">
             <h2 className="text-5xl font-extrabold text-gray-800 mb-4">tuRing</h2>
             <p className="text-lg font-normal text-gray-700"><b>Safety at your fingertips.</b> Explore our revolutionary line of smart rings designed to promote safety in a variety of situations.</p>
+            <Link href="/about">
+              <a className="rounded-md py-1 px-2 -mx-2 my-2 hover:bg-blue-50 border-blue-600 text-lg font-normal text-blue-500 flex items-center">
+                <p className="mr-1">Learn more about the project</p>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </Link>
           </div>
 
         </div>
@@ -70,7 +76,7 @@ export default function Home() {
           <div className="w-20"></div>
 
           <div className="flex-1 mt-10 md:mt-0">
-            <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Emergency Help Ring</h2>
+            <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Senior Citizen Safety Ring</h2>
             <p className="mb-3 text-lg font-normal text-gray-700">Automatically contact medical assistance when the ring detects a medical issue like a fall or heart attack.</p>
             <Link href="/emergencyhelp">
               <a className="rounded-md float-left py-1 px-2 -mx-2 -my-1 hover:bg-blue-50 border-blue-600 text-lg font-normal text-blue-500 flex items-center">
