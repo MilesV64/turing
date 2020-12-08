@@ -15,7 +15,7 @@ const Ring = ( props ) => {
             <div className="m-auto max-w-5xl px-10 mb-40 pt-16">
                 
                 <div className={"mt-10 w-full h-60 md:h-80 " + props.color}>
-                    <p></p>
+                    <img className="max-h-full m-auto" src={props.img} />
                 </div>
 
                 <div className="m-auto max-w-xl pt-6">
@@ -33,7 +33,7 @@ const Heading = (props) => (
 )
 
 const Body = (props) => (
-    <p className="text-lg text-gray-700 font-normal">{props.children}</p>
+    <div className="text-lg text-gray-700 font-normal">{props.children}</div>
 )
 
 export default Ring;

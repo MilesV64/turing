@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Ring = ( props ) => {
     return (
-        <header className="fixed top-0 blur border-b border-gray-100 w-full h-16 flex justify-center items-center">
+        <header className="z-50 fixed top-0 blur border-b border-gray-100 w-full h-16 flex justify-center items-center">
             <Link href="/">
                 <a className="flex items-center">
                     <Image src="/logo.png" width={26} height={26} />

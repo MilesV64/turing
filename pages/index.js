@@ -24,8 +24,8 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center w-full mt-20 md:mt-32">
-          <div className="flex-1 w-full bg-blue-100 h-64 md:h-96">
-            <p></p>
+          <div className="flex-1 w-full bg-blue-100 h-64 md:h-96 relative">
+            <img className="max-h-full m-auto" src="/covidring.png" />
           </div>
 
           <div className="w-20"></div>
@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row-reverse items-center w-full mt-20 md:mt-32">
           <div className="flex-1 w-full bg-pink-100 h-64 md:h-96">
-            <p></p>
+            <img className="max-h-full m-auto" src="/defensering.png" />
           </div>
 
           <div className="w-20"></div>
@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row items-center w-full mt-20 md:mt-32">
           <div className="flex-1 w-full bg-yellow-100 h-64 md:h-96">
-            <p></p>
+            <img className="max-h-full m-auto" src="/alertring.png" />
           </div>
 
           <div className="w-20"></div>
