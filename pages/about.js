@@ -24,8 +24,18 @@ export default function About(props) {
                     
                     <br/><br/>
                     At J-Stars LLC, highly motivated and accomplished designers, engineers, and developers are working diligently to create a product  that will empower individuals by providing them with safety.
-
+                    
                     </p>
+
+                    <h3 className="text-2xl font-extrabold text-gray-800 mt-16 mb-2">Personas</h3>
+                    <p className="text-lg text-gray-700 font-normal">
+                        In order to guide our design, we came up with a couple personas.
+                    </p>
+
+                    <img className="w-full rounded-lg my-10" src="/johnwick.png"></img>
+                    <img className="w-full rounded-lg my-10" src="/JenniferAnderson.png"></img>
+
+
                 </div>
             </div>
 
